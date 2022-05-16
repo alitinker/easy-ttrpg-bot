@@ -4,9 +4,9 @@ We have a mighty need to play.
 
 ## Running the bot
 
-Requires Node v16. 
+Requires [Node.js](https://nodejs.org/en/) v16. 
 
-Uses [dotenv](https://www.dotenv.org/) for managing environment variables. Add a `.env` file with the 3 env vars needed for authentication and command registration: `BOT_TOKEN`, `CLIENT_ID`, `GUILD_ID`.
+Uses [dotenv](https://www.dotenv.org/) for managing environment variables. Set these env vars to authenticate and register commands: `BOT_TOKEN`, `CLIENT_ID`, `GUILD_ID`.
 
 Run `node deploy-commands.js` to register commands.
 
